@@ -19,7 +19,6 @@ class Shop(
     }
 }
 interface Products{
-    val price:Double
     val name:String
     val about:String
 
