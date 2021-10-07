@@ -24,8 +24,7 @@ interface Products{
     val about:String
 
 }
-class Yachmen:Products{
-    override val price = 1.0
+class Yachmen:Products(val price:Int){
     override val name = "Yachmen"
     override val about = "A genus of plants of the Cereal family, one of the oldest cereals cultivated by man.\n" +
             " The cultivation of ordinary barley is widespread, other species are cultivated occasionally or grow wild.\n"
@@ -35,8 +34,7 @@ class Yachmen:Products{
     }
 }
 
-class Pshenica:Products{
-    override val price = 11.0
+class Pshenica:Products(val price:Int){
     override val name = "Pshenica"
     override val about = "A genus of herbaceous, mostly annual, plants of the Grass family, or Bluegrass (Poaceae),\n" +
             " the leading grain crop in many countries.\n"
@@ -45,8 +43,7 @@ class Pshenica:Products{
     }
 }
 
-class Roz:Products{
-    override val price = 12.0
+class Roz:Products(val price:Int){
     override val name = "Roz"
     override val about = "An annual or biennial herbaceous plant, a species of the genus Rye of the Bluegrass family.\n" +
             " Rye is a cultivated plant, it is grown mainly in the Northern hemisphere.\n" +
