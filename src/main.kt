@@ -1,9 +1,9 @@
-fun main() {
-    val shop = Shop("Ukraine")
-    shop.getName()
-    val init_obj = Yachmen(3)
-    val init_obj2 = Pshenica(5)
-    val init_obj3 = Roz(9)
-    shop.addItem(init_obj3)
-    shop.sellerinfo()
+fun main(){
+    val init = Shop("UK")
+    val obj_1 = Yachmen(3, true)
+    val obj_2 = Roz(12,true)
+    init.addItem(obj_1)
+    init.addItem(obj_2)
+    init.sellerinfo()
+
 }
