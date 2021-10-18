@@ -2,7 +2,7 @@ class Shop(
     private val name: String
 ) {
     private val list = mutableListOf<Products>()
-    val SendList: List<Products> = list
+    val sendList: List<Products> = list
 
     fun getName(): String{
         return "$name"
