@@ -2,6 +2,7 @@ class Shop(
     private val name:String
 ) {
     private val list = mutableListOf<Products>()
+    var listNEW: List<Products> = list
 
     fun getName():String{
         return "$name"
