@@ -12,5 +12,5 @@ fun main(){
         11,
         false,
     ))
-    println(init.listNEW)
+    println(init.SendList)
 }
