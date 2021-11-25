@@ -1,0 +1,3 @@
+{"type":"Pshenica","prodName":"Pshenica","price":20.0,"prodAbout":"About Pshenica"}
+{"type":"Yachmen","prodName":"Yachmen","price":10.0,"prodAbout":"About Yachmen"}
+{"type":"Roz","prodName":"Roz","price":50.0,"prodAbout":"About Roz"}
